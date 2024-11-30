@@ -4,8 +4,8 @@
   "description": "Cloudflare worker TypeScript template",
   "main": "index.js",
   "scripts": {
-    "dev": "npx wrangler dev",
-    "deploy": "npx wrangler deploy",
+    "dev": "bunx wrangler dev",
+    "deploy": "bunx wrangler deploy",
     "format": "prettier --write '**/*.{ts,js,css,json,md}'"
   },
   "author": "author",
